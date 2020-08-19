@@ -12,8 +12,8 @@ export default function Home({ public_key, private_key }) {
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        Public key: <pre>{public_key}</pre>
-        Private key: <pre>{private_key}</pre>
+        NEXT_PUBLIC_ variable: <pre>{public_key}</pre>
+        Non-public variable: <pre>{private_key}</pre>
       </main>
 
       <style jsx>{`
